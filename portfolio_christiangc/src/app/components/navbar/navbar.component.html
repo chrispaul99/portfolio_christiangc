@@ -1,0 +1,21 @@
+<div class="controls">
+    <div class="control" routerLink="/home" routerLinkActive="active-btn">
+        <i class="fas fa-home"></i>
+    </div>
+    <div class="control" routerLink="/about" routerLinkActive="active-btn">
+        <i class="fas fa-user"></i>
+    </div>
+    <div class="control" routerLink="/projects" routerLinkActive="active-btn">
+        <i class="fas fa-briefcase"></i>
+    </div>
+    <div class="control" routerLink="/certifications" routerLinkActive="active-btn">
+        <i class="fa-solid fa-medal"></i>
+    </div>
+    <div class="control"routerLink="/contact" routerLinkActive="active-btn">
+        <i class="fas fa-envelope-open"></i>
+    </div>
+</div>
+<button class="theme-btn" (click)="changeLanguage()">
+    <img id="language" src="{{selectedLanguage | imgLanguage}}" width="100%">
+</button>
+
