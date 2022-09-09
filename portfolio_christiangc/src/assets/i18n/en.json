@@ -2,6 +2,26 @@
     "HiHome":"Hi, I'm ",
     "SoftwareHome":"A Software Engineer",
     "AboutHome":"Passionate about software development, highlighting my knowledge and skills in Backend development in conjunction with my desire to learn daily",
-    "DownloadCV":"Download CV"
+    "DownloadCV":"Download CV",
+    "About":"About",
+    "Me":"me",
+    "My":"My",
+    "Skills":"Skills",
+    "Stats":"my stats",
+    "TitleAbout":"Information About me",
+    "DescriptionAbout":"Talented, respectful and self-motivated, he finds secure solutions for secure solutions to software problems. Experienced in development and implementation and offering skills in user and server profiling (Backend).",
+    "Description2About":"Fluent in Spanish and fluent in English accustomed to working with cross-cultural and global teams. Skilled in leading development with creative and performance oriented approach. Well organized and customer focused with proven project management and team leadership skills.",
+    "Projects":"Projects",
+    "Participated":"Participated",
+    "Years":"Years",
+    "Of":"of",
+    "Experience":"Experience",
+    "Learned":"Learned",
+    "Technologies":"Technologies",
+    "Languages":"Languages",
+    "Programming":"Programming",
+    "ProgrammingLanguages":"Programming Languages",
+    "Tools":"Tools I Use",
+    "Timeline":"My Timeline"
     
 }

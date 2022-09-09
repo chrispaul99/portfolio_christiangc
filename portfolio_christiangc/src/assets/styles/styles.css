@@ -681,6 +681,7 @@ section {
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: 800;
+  
   font-size: 6.3rem;
 }
 
@@ -811,7 +812,6 @@ section {
   .contact-item .icon {
     grid-template-columns: 25px 1fr;
   }
-
   .main-title h2 {
     font-size: 2rem;
   }

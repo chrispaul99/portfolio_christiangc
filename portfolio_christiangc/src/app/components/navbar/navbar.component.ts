@@ -11,7 +11,7 @@ export class NavbarComponent implements OnInit {
   
   locale = ['es','en'];
   selectedLanguage = 'es';
-  constructor(public translate: TranslateService, public languageService: LanguageService) {
+  constructor(private translate: TranslateService, private languageService: LanguageService) {
     this.translate.addLangs(['es', 'en']);
     this.translate.use('es');
     this.translate.setDefaultLang('es');
