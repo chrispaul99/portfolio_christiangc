@@ -302,25 +302,86 @@ section {
   transition: all 0.4s ease-in-out;
   width: 60%;
 }
+
+/*Skills*/
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+  width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
   width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .typescript {
+  width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .python {
   width: 70%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .java {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .csharp {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .php {
+  width: 65%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .c {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .cmas {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .dart {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .kotlin {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
+  width: 80%;
+}
 
+/*Technologies*/
+
+.about-stats .progress-bars .progress-bar .progress-con .progress .angular {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .spring {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .asp {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .slim {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .flask {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .angular {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .flutter {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .firebase {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .mongodb {
+  width: 60%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .sqlserver {
+  width: 75%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
+  width: 85%;
+}
 .stat-title {
   text-transform: uppercase;
   font-size: 1.4rem;
