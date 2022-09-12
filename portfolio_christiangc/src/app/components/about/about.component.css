@@ -7,3 +7,18 @@
     width: 20%;
 }
 
+@media screen and (max-width: 700px) {
+    .logotools{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .logotools{
+        height: 50%;
+        width: 30%;
+    }
+    .logoskill{
+        height:50%;
+        width: 25%;
+    }
+}

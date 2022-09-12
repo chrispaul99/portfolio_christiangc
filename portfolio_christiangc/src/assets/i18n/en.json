@@ -33,6 +33,16 @@
     "Softwareintern":"Software Development Intern",
     "VirtualAssistant":"Intelligent Virtual Assistant",
     "DegreeSoftware":"Degree in Software Engineering",
+    "Website":"website",
+    "AdministrativeManagementSystem":"Web Administrative Management System",
+    "Certifications":"Certifications",
+    "Publication":"Publication of Scientific Article",
+    "Auditor":"WIFI NETWORK AUDITOR AND PENTESTER",
+    "CloudComputing":"GOOGLE EDUCATIONAL AND BUSINESS TECHNOLOGIES BASED ON CLOUD COMPUTING",
+    "Other":"Other",
+    "Contact":"Contact",
+    "MeContact":"Me",
+    "Here":"Here",
     "Paragraph1":"Admission to the Degree in Software Engineering",
     "Paragraph2":"Development of a desktop application that contributes to the linguistic learning of elementary school children.",
     "Paragraph3":"Development of a video game that favors the capacity of attention and concentration in children through the influence of music in their emotional development.",
@@ -43,6 +53,8 @@
     "Paragraph8":"Development of an Android Mobile Application for the control of deferred expenses with credit card applying compound interest and amortization table.",
     "Paragraph9":"Development of a video game with Augmented Reality that favors cognitive needs in preschool children with Down syndrome.",
     "Paragraph10":"Development of an Intelligent Virtual Assistant that contributes to the improvement of the emotional state of older adults.",
-    "Paragraph11":"Completion and award of the degree of Software Engineer."
+    "Paragraph11":"Completion and award of the degree of Software Engineer.",
+    "Paragraph12":"Development of an informative Web site to promote the products of the different production lines and company information.",
+    "Paragraph13":"Development of an Enterprise Product Management System using Angular and Slim Framework technologies."
     
 }

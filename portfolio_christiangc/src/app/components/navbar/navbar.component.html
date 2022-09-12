@@ -1,4 +1,7 @@
 <div class="controls">
+    <div class="control" (click)="changeLanguage()" >
+        <img  src="{{selectedLanguage | imgLanguage}}" width="250%">
+    </div>
     <div class="control" routerLink="/home" routerLinkActive="active-btn">
         <i class="fas fa-home"></i>
     </div>
@@ -15,7 +18,3 @@
         <i class="fas fa-envelope-open"></i>
     </div>
 </div>
-<button class="theme-btn" (click)="changeLanguage()">
-    <img id="language" src="{{selectedLanguage | imgLanguage}}" width="100%">
-</button>
-

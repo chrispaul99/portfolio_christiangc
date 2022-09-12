@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+import { LanguageService } from 'src/app/services/language.service';
+import { DownloadCVPipe } from 'src/app/utils/pipes/download-cv.pipe';
 
 @Component({
   selector: 'app-contact',
@@ -7,9 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  lang = 'es';
+  constructor(private translate: TranslateService) {
+    
+  }
 
   ngOnInit(): void {
+    this.lang = this.translate.currentLang;
+  }
+  downloadCV():string{
+    this.lang = this.translate.currentLang;
+    return new DownloadCVPipe().transform(this.lang);
   }
 
 }

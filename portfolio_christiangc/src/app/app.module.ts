@@ -14,6 +14,9 @@ import { LanguageService } from './services/language.service';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ImgLanguagePipe } from './utils/pipes/img-language.pipe';
 import { DownloadCVPipe } from './utils/pipes/download-cv.pipe';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { NgxDocViewerModule } from 'ngx-doc-viewer';
+import { ViewCvPipe } from './utils/pipes/view-cv.pipe';
 
 @NgModule({
   declarations: [
@@ -25,12 +28,14 @@ import { DownloadCVPipe } from './utils/pipes/download-cv.pipe';
     ContactComponent,
     NavbarComponent,
     ImgLanguagePipe,
-    DownloadCVPipe
+    DownloadCVPipe,
+    ViewCvPipe
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
+    NgxDocViewerModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

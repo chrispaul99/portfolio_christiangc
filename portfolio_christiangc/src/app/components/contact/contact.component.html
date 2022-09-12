@@ -1,1 +1,65 @@
-<p>contact works!</p>
+
+    <section class="container contact" id="contact">
+        <div class="contact-container">
+            <div class="main-title">
+                <h2>{{'Contact' | translate}} <span>{{'MeContact'|translate}}</span><span class="bg-text">{{'Contact' | translate}}</span></h2>
+            </div>
+            <div class="contact-content-con">
+                <div class="left-contact">
+                    <h4>{{'Contact' | translate}} {{'MeContact'|translate}} {{'Here'|translate}}</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Ambato, Ecuador</span>
+                            </div>
+                            
+                        </div>
+                        <br/>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                                <span><a href="mailto:paul19992012@gmail.com">paul19992012@gmail.com</a></span>
+                            </div>
+                        </div>
+                        <br/>
+                        <div class="contact-item">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                                <span><a href="tel:+5930979127397">(+593) 0979127397</a></span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="contact-icons">
+                        <div class="contact-icon">
+                            <a href="https://www.facebook.com/christianguanopatin" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/christiang99/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/chrispaul99" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=5930979127397" target="_blank">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-contact">
+                    <ngx-doc-viewer  url="{{lang | viewCv}}"  viewer="url" style="width:100%;height:50vh;"></ngx-doc-viewer>
+                    <br/>
+                    <div class="submit-btn">
+                        <a href="{{downloadCV()}}" class="main-btn">
+                            <span class="btn-text">{{'DownloadCV' | translate}}</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+       
+    </section>
