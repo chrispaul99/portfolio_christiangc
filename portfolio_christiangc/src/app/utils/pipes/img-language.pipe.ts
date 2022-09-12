@@ -7,8 +7,8 @@ export class ImgLanguagePipe implements PipeTransform {
 
   transform(lang:string): string {
     switch(lang){
-      case "es": return "../../../assets/img/espana.png";
-      case "en": return "../../../assets/img/reino-unido.png";
+      case "es": return "../../../assets/img/spanish.png";
+      case "en": return "../../../assets/img/english.png";
       default:return "";
     }
   }

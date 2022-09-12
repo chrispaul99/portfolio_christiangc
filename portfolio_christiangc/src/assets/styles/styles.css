@@ -886,6 +886,7 @@ section {
   .main-title h2 .bg-text {
     font-size: 2.3rem;
   }
+
   
 }
 @media screen and (max-width: 1432px) {
@@ -923,6 +924,7 @@ section {
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
+  
 }
 @media screen and (max-width: 1250px) {
   .blogs {
@@ -986,8 +988,10 @@ section {
   .main-title h2 .bg-text {
     font-size: 3.5rem;
   }
+
 }
 @media screen and (max-width: 970px) {
+  
   .container {
     padding: 7rem 6rem;
   }
@@ -1048,6 +1052,7 @@ section {
   .main-title h2 .bg-text {
     font-size: 2.2rem;
   }
+
   
   .controls {
     top: auto;
@@ -1060,8 +1065,22 @@ section {
     background-color: var(--color-grey-5);
   }
   .controls .control {
-    margin: 1rem 0.3rem;
+    margin: 1rem 0.2rem;
+    border-radius: 50%;
   }
+  .controls .control i {
+    font-size: 1.2rem;
+    color: var(--color-grey-2);
+    pointer-events: none;
+  }
+  .controls .control img{
+    width: 240%;
+  }
+
+  .portfolios .portfolio-item .hover-items h3 {
+    font-size: 0.4rem;
+  }
+  
 }
 
 /*# sourceMappingURL=styles.css.map */
